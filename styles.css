@@ -2,39 +2,26 @@
     --white-transparent: rgba(255, 255, 255, 0.9);
 }
 
+body {
+    margin: 0px;
+}
+
 header {
     background: var(--white-transparent);
     text-align: center;
-    position: fixed;
-    z-index: 999;
+    margin: 0px;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    position: fixed;
 }
 
 nav {
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-  
-nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px;
 }
   
 nav a {
-    position: relative;
     text-decoration: none;
-    font-size: 1.2rem;
 }
 
 .content1 {
@@ -43,8 +30,4 @@ nav a {
     background-size: cover;
     display: grid;
     place-items: center;
-}
-
-.logo {
-    grid-column: 2 / 3;
 }
