@@ -17,6 +17,10 @@ header {
     grid-template-columns: 1fr 2fr;
 }
 
+header h3 {
+    color: #3151cf;
+}
+
 nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -25,6 +29,15 @@ nav {
   
 nav a {
     text-decoration: none;
+    color: #6f7d95;
+}
+
+.seleccion {
+    background: #3555d3;
+}
+
+h1 {
+    color: #1f3e72;
 }
 
 .content1 {
