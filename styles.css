@@ -9,15 +9,17 @@ body {
 header {
     background: var(--white-transparent);
     text-align: center;
-    margin: 0px;
     width: 100%;
     position: fixed;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 nav {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 30px;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 20px;
 }
   
 nav a {
