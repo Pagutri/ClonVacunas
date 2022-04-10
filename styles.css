@@ -16,6 +16,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     font-weight: bold;
+    margin-top: -20px;
 }
 
 header h3 {
@@ -41,12 +42,29 @@ nav a {
 
 h1 {
     color: #1f3e72;
+    font-size: 50px;
 }
 
-.content1 {
-    height: 200vh;
-    background-image: url("img/FDI-Vacunas.jpg");
-    background-size: cover;
-    display: grid;
-    place-items: center;
+.izquierda {
+    padding-top: 200px;
+    padding-left: 70px;
+    font-weight: bold;
+}
+
+.gris {
+    color: #6f7d95;
+}
+
+.no-gris {
+    color: #1f3e72;
+}
+
+.derecha {
+    width: 650px;
+    height: 700px;
+    object-fit: cover;
+    float: right;
+    background: #021863;
+    padding-top: 100px;
+    margin-top: -20px;
 }
