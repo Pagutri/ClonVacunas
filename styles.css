@@ -72,3 +72,7 @@ h1 {
 .icon {
     height: 15px;
 }
+
+.minibar {
+    display: flex;
+}
